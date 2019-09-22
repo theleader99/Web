@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.slide{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative; 
+}
+.slide:hover .nav-slide{
+    display:block;
+}
+.move-slide{
+    width: 8000px;
+    transition: all 1s;
+}
+img{
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+.nav-slide{
+    position: absolute;
+    color: white;
+    font-size:50px;
+    top: 38%;
+    padding-left: 20px;
+    display: none;
+}
+.nav-slide i:last-child{
+    position: relative;
+    left: 860px;
+}
